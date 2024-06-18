@@ -13,7 +13,7 @@ chalice==1.24.1
 charset-normalizer==2.0.4; python_full_version >= "3.6.0" and python_version >= "3"
 click==7.1.2; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
 colorama==0.4.3; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "win32" or python_full_version >= "3.5.0" and python_version >= "3.6" and sys_platform == "win32"
-cryptography==3.4.7; python_version >= "3.6"
+cryptography==42.0.4; python_version >= "3.6"
 dataclasses==0.8; python_version >= "3.6" and python_version < "3.7"
 docutils==0.15.2; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.3.0" and python_version >= "3.6"
 dsnap==1.0.0; python_version >= "3.6" and python_version < "4.0"
@@ -23,7 +23,7 @@ idna==3.2; python_version >= "3.5" and python_full_version < "3.0.0" or python_f
 importlib-metadata==4.6.3; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.5.0" and python_version < "3.8" and python_version >= "3.6"
 iniconfig==1.1.1; python_version >= "3.6"
 inquirer==2.7.0
-jinja2==3.0.1; python_version >= "3.6"
+jinja2==3.1.4; python_version >= "3.6"
 jinxed==1.1.0; platform_system == "Windows"
 jmespath==0.10.0; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "4.0" or python_full_version >= "3.3.0" and python_version >= "3.6" and python_version < "4.0"
 markupsafe==2.0.1; python_version >= "3.6"
@@ -63,6 +63,6 @@ typing-extensions==3.10.0.0
 typing==3.6.4; python_version < "3.7"
 urllib3==1.26.6; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.5.0" and python_version < "4")
 wcwidth==0.2.5
-werkzeug==2.0.1; python_version >= "3.6"
+werkzeug==3.0.3; python_version >= "3.6"
 xmltodict==0.12.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0"
 zipp==3.5.0; python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.5.0" and python_version < "3.8" and python_version >= "3.6"
